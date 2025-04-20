@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+h1 {color: white;
+    strong {
+        color: #22D4FD;
+    }
+    }button {
+    background-color: #22D4FD;
+    color: black;
+}  
+}
+.outer-container {
+    display: flex; /* Usar flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Faz com que o contêiner ocupe toda a altura da tela */
+}
+.container {
+    display: flex; /* Alinha a imagem e o texto lado a lado */
+}
+.text-container {
+    text-align: left; /* Centraliza o texto dentro do contêiner */
+    flex: 1; /* Permite que o contêiner de texto ocupe o espaço restante */
+    max-width: 300px; /* Define uma largura máxima para o texto */
+    padding: 20px; /* Adiciona um espaço interno ao redor do texto */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+.text-container p {
+    text-align: justify; /* Justifica o texto do parágrafoo dentro do contêiner */
+    font-size: 16px; /* Ajusta o tamanho da fonte dos botões */
+}
+.container img {
+    margin-left: 20px; /* Espaço entre a imagem e o texto */
+    width: 300px; /* Ajuste a largura da imagem conforme necessário */
+}
+.buttons {
+    display: flex; /* Alinha os botões lado a lado */
+    justify-content: center;/* Centraliza os botões dentro do contêiner */
+    gap: 20px; /* Espaço entre os botões */
+}
+
+.buttons button {
+    padding: 15px 25px; /* Aumenta o tamanho dos botões */
+    font-size: 20px; /* Ajusta o tamanho da fonte dos botões */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}

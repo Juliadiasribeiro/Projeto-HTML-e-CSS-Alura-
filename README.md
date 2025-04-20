@@ -25,7 +25,7 @@ Este é um projeto desenvolvido durante o curso de HTML e CSS da Alura. A propos
 
 ## 📷 Prévia
 
-![Preview do Projeto](http://127.0.0.1:5500/index.html)
+![Image](https://github.com/user-attachments/assets/582fc591-3dae-448c-988b-d751dfc4700f)
 
 ## 🚀 Como visualizar
 
